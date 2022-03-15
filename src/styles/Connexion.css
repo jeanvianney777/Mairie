@@ -107,6 +107,7 @@
 .step1 {
   outline: none;
   background-color: transparent;
+  width: 120px;
   border: none;
   height: 45px;
   border-right: 4px solid grey;
@@ -115,7 +116,7 @@
   padding-right: 1rem;
   padding-left: 1rem;
   position: relative;
-  background-color: white;
+  background-color: grey;
   z-index: 3;
 }
 .step2 {
@@ -127,9 +128,9 @@
   border-top-right-radius: 45%;
   border-bottom-right-radius: 45%;
   padding-right: 0.21rem;
-  padding-left: 1rem;
+  padding-left: 1.9rem;
   width: 125px;
-  margin-left: -30px;
+  margin-left: -45px;
   background-color: white;
   position: absolute;
   z-index: 2;
@@ -141,7 +142,7 @@
   height: 45px;
   border-right: 2px solid grey;
   width: 180px;
-  padding-left: 6rem;
+  padding-left: 5rem;
   position: absolute;
   z-index: 1;
 }
