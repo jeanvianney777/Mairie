@@ -21,9 +21,9 @@ const Etape1 = () => {
           </div>
           <div class="form">
             <input
-              type="password"
-              id="password"
-              name="password"
+              type="text"
+              id="prenom"
+              name="prenom"
               class="form__input"
               autoComplete="off"
               placeholder=" "
@@ -35,8 +35,8 @@ const Etape1 = () => {
           <div class="form">
             <input
               type="date"
-              id="password"
-              name="password"
+              id="date"
+              name="date"
               class="form__input"
               autoComplete="off"
               placeholder=" "
